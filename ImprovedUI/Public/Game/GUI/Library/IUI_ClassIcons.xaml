@@ -162,7 +162,10 @@
 			<DataTrigger Binding="{Binding IDString}" Value="WoWDemonHunter">
 				<Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/WoWDemonHunterClass/ClassIcons/Icon_WoWDemonHunterClass.png"/>
 			</DataTrigger>
-			<!--EDIT HERE-->
+                        <DataTrigger Binding="{Binding IDString}" Value="Jedi">
+                                <Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/ClassIcons/monk.png"/>
+                        </DataTrigger>
+                        <!--EDIT HERE-->
 		</Style.Triggers>
 	</Style>
 
@@ -205,6 +208,9 @@
 			<DataTrigger Binding="{Binding IDString}" Value="WoWDemonHunter">
 				<Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/WoWDemonHunterClass/ClassIcons/hotbar/Icon_WoWDemonHunterClass.png"/>
 			</DataTrigger>
+                        <DataTrigger Binding="{Binding IDString}" Value="Jedi">
+                                <Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/ClassIcons/monk.png"/>
+                        </DataTrigger>
 			<!--EDIT HERE-->
 		</Style.Triggers>
 	</Style>
@@ -663,6 +669,15 @@
 			<DataTrigger Binding="{Binding SubclassIDString}" Value="VengeanceDemonHunter">
 				<Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/WoWDemonHunterClass/ClassIcons/Icon_VengeanceDemonHunter.png"/>
 			</DataTrigger>
+                        <DataTrigger Binding="{Binding SubclassIDString}" Value="Guardian">
+                                <Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/ClassIcons/hotbar/Fighter_Champion_Simplified.png"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding SubclassIDString}" Value="Sentinel">
+                                <Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/ClassIcons/hotbar/monk_open_hand.png"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding SubclassIDString}" Value="Consular">
+                                <Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/ClassIcons/wizard_illusion.png"/>
+                        </DataTrigger>
 			<!--EDIT HERE-->
 		</Style.Triggers>
 	</Style>
@@ -808,6 +823,15 @@
 			<DataTrigger Binding="{Binding SubclassIDString}" Value="VengeanceDemonHunter">
 				<Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/WoWDemonHunterClass/ClassIcons/hotbar/Icon_VengeanceDemonHunter.png"/>
 			</DataTrigger>
+                        <DataTrigger Binding="{Binding SubclassIDString}" Value="Guardian">
+                                <Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/ClassIcons/hotbar/Fighter_Champion_Simplified.png"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding SubclassIDString}" Value="Sentinel">
+                                <Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/ClassIcons/hotbar/monk_open_hand.png"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding SubclassIDString}" Value="Consular">
+                                <Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/ClassIcons/wizard_illusion.png"/>
+                        </DataTrigger>
 			<!--EDIT HERE-->
 		</Style.Triggers>
 	</Style>
